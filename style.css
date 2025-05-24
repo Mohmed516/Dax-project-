@@ -64,7 +64,7 @@ body{
      .main-section{
        grid-area: section; 
     
-    background-image: url('/test website /img/Picsart_25-05-21_11-46-22-655.png'); 
+    background-image: url('Picsart_25-05-21_11-46-22-655.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
