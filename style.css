@@ -35,7 +35,7 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: 10px 20px;
+     padding: 10px;
      justify-content:space-between;
      align-items:center;
      position:fixed;
@@ -155,7 +155,7 @@ body{
       border: 1px  solid  gray; 
      }
      .box-product{
-       padding-top:20px; 
+      
        grid-area: box; 
        display: flex;
        flex-flow: row wrap; 
@@ -166,12 +166,18 @@ body{
      width: 250px;
      height: 300px;
     border-radius: 5px; 
-     margin:50px auto;
+     margin-bottom:50px ;
     display: flex;
      flex-flow: column nowrap;  
       justify-content: flex-end;
       
    }
+@media (max-width: 1400px) {
+  /* CSS للشاشات العريضة مثل شاشات 2K */
+.bord{
+  margin:100px;
+}
+}
    .bord img{
      width: 100%;
      height: 235px;
