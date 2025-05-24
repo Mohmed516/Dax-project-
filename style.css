@@ -11,7 +11,7 @@
      :root{
        --mainColor:#ddd;
        --secondColor:#14857A;
-       --mainPadding:50px 100px;
+       --mainPadding:50px 50px;
        --mainMarggin: 50px auto;
        --mainWidh:100%;
        --mainHeight:600px;
@@ -35,7 +35,7 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: 10px 100px;
+     padding: 10px 50px;
      justify-content:space-between;
      align-items:center;
      position:fixed;
