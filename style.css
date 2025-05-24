@@ -346,10 +346,10 @@ body{
 }
 
 /* 4. التابلت الرأسي */
-@media (max-width: 768px) {
+@media (min-width: 768px) and(max-width:1200px){
   /* CSS هنا */
   .bord{
-    margin-bottom:50px;
+    margin-bottom:30px;
   }
 }
 
