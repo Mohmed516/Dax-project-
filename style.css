@@ -324,7 +324,7 @@ body{
       
     }
 /* 1. شاشات صغيرة جداً */
-@media (max-width: 320px) {
+@media (min-width: 320px) and(max-width:767.98px){
   header{
     padding:10px ;
   }
@@ -334,7 +334,7 @@ body{
 /* 2. الجوالات العادية */
 @media (max-width: 480px) {
   header{
-    padding:10px ;
+    padding:;
   }
   /* CSS هنا */
 }
@@ -342,7 +342,7 @@ body{
 /* 3. الجوالات المتوسطة */
 @media (max-width: 600px) {
   /* CSS هنا */
-  padding:10px;
+  padding:;
 }
 
 /* 4. التابلت الرأسي */
