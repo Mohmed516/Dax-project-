@@ -35,23 +35,14 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: 10px;
+     padding: 10px 50px;
      justify-content:space-between;
      align-items:center;
      position:fixed;
      z-index:3000;
     }
-@media (max-width: 320px) {
-  /* CSS لأجهزة مثل iPhone SE وأصغر */
-  header{
-    padding:5px;
-  }
-}
-    @media(max-width:991.98px){
-      header{
-        padding:10px 80px;
-      }
-    }
+
+    
   .logo h1{
     font-weight:600;
     letter-spacing: 1px; 
@@ -82,7 +73,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center; 
-    padding: 50px 50px;
+    padding: ;
      
     
     
@@ -264,9 +255,7 @@ body{
        animation-iteration-count: infinite;
        animation-direction:alternate;
      }
-    .one{
 
-     }
      .two{
        
        animation-delay:0.3s; 
@@ -284,7 +273,7 @@ body{
       grid-area: contact; 
       background-color: #ddd;
       display: flex;
-      padding-left: 40px;
+      padding-left: ;
       flex-flow: column nowrap;
       align-items: flex-start; 
       justify-content: center; 
@@ -334,3 +323,58 @@ body{
       color: #F9F9F9; 
       
     }
+/* 1. شاشات صغيرة جداً */
+@media (max-width: 320px) {
+  header{
+    padding:10px 0px;
+  }
+  /* CSS هنا */
+}
+
+/* 2. الجوالات العادية */
+@media (max-width: 480px) {
+  header{
+    padding:10px 0px;
+  }
+  /* CSS هنا */
+}
+
+/* 3. الجوالات المتوسطة */
+@media (max-width: 600px) {
+  /* CSS هنا */
+}
+
+/* 4. التابلت الرأسي */
+@media (max-width: 768px) {
+  /* CSS هنا */
+}
+
+/* 5. التابلت العرضي */
+@media (max-width: 992px) {
+  /* CSS هنا */
+}
+
+/* 6. اللابتوب */
+@media (max-width: 1200px) {
+  /* CSS هنا */
+}
+
+/* 7. الشاشات العريضة */
+@media (max-width: 1400px) {
+  /* CSS هنا */
+}
+
+/* 8. الشاشات فائقة الدقة */
+@media (min-width: 1401px) {
+  /* CSS هنا */
+}
+
+/* 9. الوضع الأفقي لأي حجم */
+@media (orientation: landscape) {
+  /* CSS هنا لتنسيق العرض الأفقي */
+}
+
+/* 10. جوالات في الوضع الأفقي */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* CSS خاص بالجوالات الأفقية */
+      }
