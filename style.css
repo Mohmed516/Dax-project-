@@ -271,7 +271,7 @@ body{
      }
     .contacts {
       grid-area: contact; 
-      background-color: #ddd;
+      background-color: white;
       display: flex;
       padding-left: ;
       flex-flow: column nowrap;
