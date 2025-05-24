@@ -41,6 +41,12 @@ body{
      position:fixed;
      z-index:3000;
     }
+@media (max-width: 320px) {
+  /* CSS لأجهزة مثل iPhone SE وأصغر */
+  header{
+    padding:10px;
+  }
+}
     @media(max-width:991.98px){
       header{
         padding:10px 80px;
