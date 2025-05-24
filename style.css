@@ -155,7 +155,7 @@ body{
    .bord{
      width: 250px;
      height: 300px;
-     margin: 40px auto;
+     margin: 50px;
     border-radius: 5px; 
     display: flex;
      flex-flow: column nowrap;  
