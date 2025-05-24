@@ -44,7 +44,7 @@ body{
 @media (max-width: 320px) {
   /* CSS لأجهزة مثل iPhone SE وأصغر */
   header{
-    padding:10px;
+    padding:5px;
   }
 }
     @media(max-width:991.98px){
