@@ -11,7 +11,7 @@
      :root{
        --mainColor:#ddd;
        --secondColor:#14857A;
-       --mainPadding:;
+       --mainPadding:50px 100px;
        --mainMarggin: 50px auto;
        --mainWidh:100%;
        --mainHeight:600px;
@@ -57,13 +57,12 @@ body{
   }
   /*the section css*/
   section {
-    padding:;
+    padding:var(--mainPadding);
   }
   /*the main-section css*/
 
      .main-section{
-       grid-area: section; 
-    
+       grid-area: section;
     background-image: url('Picsart_25-05-21_11-46-22-655.png'); 
     background-size: cover;
     background-repeat: no-repeat;
