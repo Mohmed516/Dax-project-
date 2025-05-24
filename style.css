@@ -35,8 +35,8 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: var(--mainPadding);
-     justify-content:space-evenly;
+     padding: 10px 100px;
+     justify-content:space-between;
      align-items:center;
      position:fixed;
      z-index:3000;
@@ -154,7 +154,6 @@ body{
    .bord{
      width: 250px;
      height: 300px;
-     margin-bottom: 30px;
     border-radius: 5px; 
     display: flex;
      flex-flow: column nowrap;  
