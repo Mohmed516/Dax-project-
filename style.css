@@ -73,7 +73,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center; 
-    padding: ;
+  
      
     
     
@@ -342,11 +342,15 @@ body{
 /* 3. الجوالات المتوسطة */
 @media (max-width: 600px) {
   /* CSS هنا */
+  padding:10px 0px;
 }
 
 /* 4. التابلت الرأسي */
 @media (max-width: 768px) {
   /* CSS هنا */
+  .bord{
+    margin:50px;
+  }
 }
 
 /* 5. التابلت العرضي */
