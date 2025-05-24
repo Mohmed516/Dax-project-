@@ -371,7 +371,7 @@ body{
 /* 7. الشاشات العريضة */
 @media (max-width: 1400px) {
   .bord{
-    margin-bottom:30px;
+    margin-bottom:50px;
     
   }
   /* CSS هنا */
