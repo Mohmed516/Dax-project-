@@ -11,7 +11,7 @@
      :root{
        --mainColor:#ddd;
        --secondColor:#14857A;
-       --mainPadding:5px 80px;
+       --mainPadding:;
        --mainMarggin: 50px auto;
        --mainWidh:100%;
        --mainHeight:600px;
@@ -57,7 +57,7 @@ body{
   }
   /*the section css*/
   section {
-    padding:50px 50px;
+    padding:;
   }
   /*the main-section css*/
 
@@ -155,7 +155,7 @@ body{
    .bord{
      width: 250px;
      height: 300px;
-     margin: 50px;
+     margin: ;
     border-radius: 5px; 
     display: flex;
      flex-flow: column nowrap;  
