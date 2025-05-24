@@ -35,11 +35,16 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: 10px 50px;
+     padding: 10px 30px;
      justify-content:space-between;
      align-items:center;
      position:fixed;
      z-index:3000;
+    }
+    @media(max-width:991.98px){
+      header{
+        padding:10px 80px;
+      }
     }
   .logo h1{
     font-weight:600;
