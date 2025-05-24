@@ -349,36 +349,53 @@ body{
 @media (max-width: 768px) {
   /* CSS هنا */
   .bord{
-    margin:50px;
+    margin-bottom:50px;
   }
 }
 
 /* 5. التابلت العرضي */
 @media (max-width: 992px) {
+  
   /* CSS هنا */
 }
 
 /* 6. اللابتوب */
 @media (max-width: 1200px) {
+  .bord{
+    margin:30px;
+  }
   /* CSS هنا */
 }
 
 /* 7. الشاشات العريضة */
 @media (max-width: 1400px) {
+  .bord{
+    margin:30px;
+  }
   /* CSS هنا */
 }
 
 /* 8. الشاشات فائقة الدقة */
 @media (min-width: 1401px) {
+  .bord{
+
+    margin:30px;
+  }
   /* CSS هنا */
 }
 
 /* 9. الوضع الأفقي لأي حجم */
 @media (orientation: landscape) {
+  .bord{
+    margin:30px;
+  }
   /* CSS هنا لتنسيق العرض الأفقي */
 }
 
 /* 10. جوالات في الوضع الأفقي */
 @media (max-width: 768px) and (orientation: landscape) {
   /* CSS خاص بالجوالات الأفقية */
+  .bord{
+    margin:20px;
+  }
       }
