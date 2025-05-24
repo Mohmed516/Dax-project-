@@ -35,7 +35,7 @@ body{
      background-color:var(--mainColor);
      color:#166B63; 
      display:flex;
-     padding: 10px 30px;
+     padding: 10px 20px;
      justify-content:space-between;
      align-items:center;
      position:fixed;
@@ -160,6 +160,7 @@ body{
      width: 250px;
      height: 300px;
     border-radius: 5px; 
+     margin:50px auto;
     display: flex;
      flex-flow: column nowrap;  
       justify-content: flex-end;
