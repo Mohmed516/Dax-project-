@@ -326,7 +326,7 @@ body{
 /* 1. شاشات صغيرة جداً */
 @media (max-width: 320px) {
   header{
-    padding:10px 0px;
+    padding:10px ;
   }
   /* CSS هنا */
 }
@@ -334,7 +334,7 @@ body{
 /* 2. الجوالات العادية */
 @media (max-width: 480px) {
   header{
-    padding:10px 0px;
+    padding:10px ;
   }
   /* CSS هنا */
 }
