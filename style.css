@@ -342,7 +342,7 @@ body{
 /* 3. الجوالات المتوسطة */
 @media (max-width: 600px) {
   /* CSS هنا */
-  padding:10px 0px;
+  padding:10px;
 }
 
 /* 4. التابلت الرأسي */
