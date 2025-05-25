@@ -298,11 +298,10 @@ body{
     }
     fotter {
       grid-area: fot;
-      text-align: center; 
       display: flex;
       flex-flow: row;
-      justify-content: space-around;
-      align-items: center; 
+      justify-content: center;
+      align-items: center;
       background-color:#166B63;
     }
 
@@ -310,7 +309,7 @@ body{
       font-size:1em; 
       word-spacing: 1px;
       color: #F9F9F9; 
-      text-align: center; 
+      padding-right:20px;
     
     }
     fotter  i{
